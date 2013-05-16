@@ -1,5 +1,11 @@
-h1. SNCF-delays is a NodeJS tool to check french railways delays.
+# SNCF-delays is a NodeJS tool to check french railways delays.
 
+# Install
+```bash
+$ npm install sncf-delays
+```
+
+# Use
 ```javascript
 var SNCF = require('sncf-delays');
 
@@ -14,5 +20,14 @@ SNCF.departuresDelaysAt("Orléans", function(err, delays) {
     delay.train_deck,
     delay.delay_text);
 });
+```
 
+# Run tests
+```bash
+$ npm test
+```
+
+# Run Grunt (jslint, docs)
+```bash
+$ grunt
 ```
