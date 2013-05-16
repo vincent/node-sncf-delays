@@ -1,0 +1,28 @@
+{
+  "name": "sncf-delays",
+  "version": "0.0.0",
+  "description": "SNCF-delays is a NodeJS tool to check french railway delays.",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "~0.11.0",
+    "request": "~2.21.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincent/node-sncf-delays"
+  },
+  "keywords": [
+    "sncf",
+    "train",
+    "railway"
+  ],
+  "author": "Vincent Lark vincent.lark@gmail.com",
+  "license": "BSD",
+  "readmeFilename": "Readme.md"
+}
